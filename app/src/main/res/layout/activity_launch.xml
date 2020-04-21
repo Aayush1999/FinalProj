@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchActivity">
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F78B5"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="230dp"
+            android:layout_height="79dp"
+            android:baselineAligned="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter symptoms"
+            android:translationX="60sp"
+            android:translationY="180sp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/image_symptom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="50sp"
+            app:srcCompat="@drawable/symptoms" />
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_width="115dp"
+            android:layout_height="38dp"
+            android:text="Go!"
+            android:translationX="290sp"
+            android:translationY="-400sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
