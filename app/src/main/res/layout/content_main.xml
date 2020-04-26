@@ -19,7 +19,7 @@
         android:layout_marginRight="131dp"
         android:layout_marginBottom="223dp"
         android:capitalize="characters"
-        android:text="Enter Symptoms"
+        android:text="Find the right medicine"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
